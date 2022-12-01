@@ -1,0 +1,2 @@
+java server.MainServer
+pause
