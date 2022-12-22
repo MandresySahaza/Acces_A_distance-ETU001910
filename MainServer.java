@@ -9,7 +9,7 @@ public class MainServer{
 
     public MainServer(){}
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         ServerSocket serverSocket = new ServerSocket(1910);
         Socket client = serverSocket.accept();
         ReScreen rsScreen = new ReScreen(client);

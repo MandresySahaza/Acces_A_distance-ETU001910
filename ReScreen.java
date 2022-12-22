@@ -20,10 +20,10 @@ public class ReScreen extends Thread{
     }
     
     public void Interface(){
-        JFrame theframe=new JFrame("Screen");
-        this.panel=new JPanel();
-        theframe.add(this.panel);
-        theframe.setVisible(true);
+        JFrame frame = new JFrame("Screen");
+        this.panel = new JPanel();
+        frame.add(this.panel);
+        frame.setVisible(true);
     }
 
     
